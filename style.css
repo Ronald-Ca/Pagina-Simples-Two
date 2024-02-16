@@ -2,8 +2,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 
-    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 
-    .38) 100%);
+    background: #ffff00;
 
     min-height: 100vh;
 }
@@ -35,7 +34,8 @@ ul {
 }
 
 ul li a{
-    opacity: 0.5;
+    opacity: 0.6;
+    font-weight: bold;
 }
 
 ul li a:hover {
@@ -64,24 +64,24 @@ h1 {
 }
 
 h1 span {
-    color: #89C5CC;
+    color: #c7258b;
     font-weight: bold;
 }
 
 section p {
     font-size: 14px;
     line-height: 28px;
-    color: #7D7987;
+    color: #5c5867;
 
     margin: 40px 0;
 }
 
-button {
-    color: #fff;
+#link {
+    color: #ffff00;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
 
-    background: #69B99D;
+    background: #1F1534;
     border: none;
     border-radius: 4px;
     padding: 14px  32px 15px;
@@ -92,10 +92,11 @@ button {
     gap: 10px;
 
     cursor: pointer;
+    width: 150px;
 }
 
-button:hover {
-    background: #4ea788;
+#link:hover {
+    background: #2f283e;
 }
 
 footer {
